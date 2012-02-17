@@ -1,0 +1,11 @@
+@import url("prefixed/*.less");
+
+
+div {
+.linear-gradient(e("white, black")); // e() info: http://lesscss.org/#-escaping
+.transition-transform(0.5s);
+
+	&:hover {
+	.transform(scale(2));
+	}
+}
